@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WEATHER PREDICTION API
+        </title>
+    </head>
+<body>
+
+<h1>WEATHER PREDICTION API</h1>
+
+<form method="POST" action="/predict">
+  <label for="thedate">Enter date:</label>
+  <input type="text" id="thedate" name="thedate">
+  <input type="submit" value="predict"/>
+</form>
+<p>
+    The Average Temprature is {{ prediction }}
+</p>
+
+</body>
+</html>
+
